@@ -1,0 +1,225 @@
+/* THIS PAGE IS THE STYLESHEET FOR THE ENTIRE UNITEUS WEBPAGE */
+/* THIS PAGE IS THE STYLESHEET FOR THE ENTIRE UNITEUS WEBPAGE */
+/* THIS PAGE IS THE STYLESHEET FOR THE ENTIRE UNITEUS WEBPAGE */
+
+h1 {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px 2px gray, 0 0 0.005em gray;
+}
+
+h4 {
+  color: black;
+  text-align: center;
+}
+
+ul#links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li#links {
+  float: left;
+}
+
+li#links a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+li#links a:hover {
+  background-color: #525252;
+}
+
+.introduction, .donate, .feature, .petitions-intro, .petitions, .description {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: black;
+}
+
+.form {
+  text-align: center;
+  overflow: auto;
+  line-height: 20px;
+}
+
+#donate {
+  width: 45%;
+  height: 700px;
+  margin: auto;
+  background-color: #dee0e3;
+  border-radius: 30px;
+  box-shadow: 5px 5px gray;
+}
+
+#extra-info {
+  font-size: 12px;
+}
+
+ul#cities {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dee0e3;
+  line-height: 15px;
+  font-size: 14px;
+  display: block;
+  box-shadow: 4px 4px gray;
+}
+
+li#cities a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+  box-shadow: 3px 3px gray;
+}
+
+li#cities a:hover {
+  background-color: #bdbebf;
+  color: white;
+}
+
+#shadow {
+  text-shadow: 1px 1px 2px gray, 0 0 0.005em gray;
+}
+
+#start-petition {
+  width: 30%;
+  height: 600px;
+  margin: auto;
+  background-color: #dee0e3;
+  border-radius: 30px;
+  box-shadow: 5px 5px gray;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.aligncenter img {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.feature {
+  border-style: solid;
+  border-width: 3px;
+  background-color: #d65e5e;
+  width: 75%;
+  display: inline-block;
+}
+
+.references {
+  text-align: center;
+}
+
+.centerfeature {
+  text-align: center;
+}
+
+#whiteshadow {
+  text-shadow: 2px 2px 3px white, 0 0 0.1em white;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  display: inline-block;
+}
+
+div.middle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em
+}
+
+.picture-parent { 
+  text-align:center; 
+}
+
+.picture { 
+  display: inline-block; 
+  margin: 0 15px; 
+}
+
+#round {
+  border-radius: 50%;
+  box-shadow: 5px 5px 6px gray, 0 0 0.2em gray;
+}
+
+.width {
+  width: 75%;
+  margin: auto;
+}
+
+#global {
+  text-align: center;
+  font-family: Georgia, serif;
+  width: 45%;
+  height: 750px;
+  margin: auto;
+  background-image: linear-gradient(rgba(107,151,219), rgba(0,43,110));
+  border-radius: 30px;
+  box-shadow: 5px 5px #001363;
+  color: white;
+  text-shadow: 3px 3px 4px black, 0 0 0.1em black;
+  float: left;
+  margin-left: 3%;
+  display: inline-block;
+}
+
+#smaller {
+  font-size: 12px;
+}
+
+.width2 {
+  width: 85%;
+  margin: auto;
+}
+
+#special-shadow {
+  text-shadow: 3px 3px 4px black, 0 0 0.1em black;
+}
+
+#global2 {
+  text-align: center;
+  font-family: Georgia, serif;
+  width: 45%;
+  height: 750px;
+  margin: auto;
+  background-image: linear-gradient(rgba(107,151,219), rgba(0,43,110));
+  border-radius: 30px;
+  box-shadow: 5px 5px #001363;
+  color: white;
+  text-shadow: 3px 3px 4px black, 0 0 0.1em black;
+  float: right;
+  margin-right: 3%;
+  display: inline-block;
+}
+
+#large {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.large {
+  font-weight: bold;
+  font-size: 18px;
+}
